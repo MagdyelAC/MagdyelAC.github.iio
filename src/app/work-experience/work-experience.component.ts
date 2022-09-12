@@ -31,6 +31,9 @@ export class WorkExperienceComponent implements OnInit {
         {descripcion: "Analizar datos y estadisticas sobre los clientes"}
       ]
     };
+
+    this.workExperiencies.push(work1);
+    this.workExperiencies.push(work2);
   }
 
 }
